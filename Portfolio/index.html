@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | DK</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="description" content="Dinesh's personal portfolio showcasing projects, blogs, and contact information.">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Dinesh</a>
+        <i class="fa-solid fa-bars" id="menu-toggle"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="static/prof.jpg" alt="Profile Image">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Dinesh</span></h1>
+            <h3 class="typing-text">I'm a <span>Software Engineer</span></h3>
+            <p>
+                Results-driven engineer with an Honors Diploma in Computer Application. 
+                A collaborative team player passionate about staying at the cutting edge of technology. 
+                Currently pursuing a B.E. in Computer Science at Loyola ICAM College of Engineering, Chennai. 
+                Eager to apply my coding skills to innovative projects and contribute to dynamic teams.
+            </p>
+            <!-- Social Media Links -->
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>CGPA Calculator</h3>
+                <p>A JavaFX application for calculating CGPA. This project demonstrates my ability to apply Java programming skills to practical problems and deliver functional software solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="blogs" id="blogs">
+        <h2>Blogs</h2>
+        <div class="blog-list">
+            <div class="blog-item">
+                <h3><a href="https://dineshdkblogs.blogspot.com/2024/04/unlocking-power-of-python-journey-from.html" target="_blank">Unlocking the Power of Python: Journey from Basics to Advanced</a></h3>
+                <p>Explore my journey through Python programming, from its fundamentals to advanced topics. Learn how Python can be a powerful tool in various applications.</p>
+            </div>
+            <div class="blog-item">
+                <h3><a href="https://medium.com/@dinesh6374115150/unveiling-the-emotional-world-of-emojis-a-journey-with-python-and-vader-3cb9121ed594" target="_blank">Unveiling the Emotional World of Emojis: A Journey with Python and VADER</a></h3>
+                <p>Dive into the world of emojis and sentiment analysis using Python and VADER. Understand how to analyze and interpret emotional content in text.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2>Education</h2>
+        <div class="education-list">
+            <div class="education-item">
+                <h3>Honors Diploma in Computer Application</h3>
+                <p>CSS, Chennai</p>
+            </div>
+            <div class="education-banner">
+                <img src="static/css.jpeg" >
+            </div>
+            <div class="education-item">
+                <h3>Bachelor of Engineering in Computer Science</h3>
+                <p>Loyola ICAM College of Engineering, Chennai</p>
+            </div>
+            <div class="education-banner">
+                <img src="static/LOGO1.jpeg" alt="Degree One Banner">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+        <!-- Social Media Links -->
+        <section class="social-media">
+            <h2>     Connect with me    </h2>
+            <div class="social-icons">
+            <a href="https://www.linkedin.com/in/dinesh-kumar-a417a6296/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/dinesh200512" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/rdinesh_devil/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/DineshD33474296" target="_blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </section>
+    </section>
+
+    <script src="static/script.js"></script>
+</body>
+
+</html>
